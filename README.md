@@ -7,6 +7,7 @@
 1. 复制[AGENTS.md](AGENTS.md)与整个[agent-spec](agent-spec/README.md)目录；已有规则先比较合并，不覆盖项目定制。
 2. 用户可填写[project-rules.md](agent-spec/project-rules.md)，也可由Agent按当前任务逐步核实补全。无需先填完整，不默认全库扫描或新建资料。
 3. 简单讨论直接回答，小修只修改/必要检查/简记项目changelog，较大变化才按影响选择流程。业务文档沿用原位置，不预建全套文件。
+4. 常用角色为方案分析、开发实现、独立审查，专项测试按需启用。需求与必要设计合并沟通，开发负责日常自测，审查按风险检查范围、依据和验证；简单可逆修改可自查。角色不要求各建会话或文档，详见[workflow.md](agent-spec/workflow.md)。
 
 ## 结构
 
